@@ -63,12 +63,15 @@ h2 {
 h3 {
     margin-top: 10px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 p {
     text-align: justify;
 }
-
+.proyectos{
+    font-weight: bold;
+}
 footer {
     color: rgb(44, 42, 42);
     text-align: center;

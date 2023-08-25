@@ -8,7 +8,6 @@ body {
   }
   #Hero-Section {
     background-image: url("../img/codigo.jpeg");
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -16,13 +15,23 @@ body {
   }
   
   /* Proyectos */
-  
-  #Mis-trabajos .image-top {
+
+  #Proyectos{
+    background-color: rgb(211, 52, 118);
+  }
+  #Proyectos .image-top {
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
+  .cuppon {
+    width: 100%;
+    height: 1em;
+   
+    text-align: center;
+  }
+  
   
   .coffee {
     width: 75%;
