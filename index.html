@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <title>Orbit - Bootstrap 5 Resume/CV Template for Developers</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Gloria Villagrán</title>
@@ -11,6 +14,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Font -->
+    <link
+        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/d71610eb38.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/cv.css">
 </head>
@@ -29,9 +39,6 @@
                         <a class="nav-link text-light" href="#contacto">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link text-light" href="#educacion">Educación</a>
                     </li>
                     <li class="nav-item">
@@ -40,176 +47,262 @@
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#experiencia">Experiencia Laboral</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#skills">Skills</a>
+                    </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="portafolio.html">Portafolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link active text-light" aria-current="page" href="portafolio.html" target="_blank">Portafolio</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="./assets/img/fotoPerfil.jpeg" alt="perfil" />
+                <h1 class="name">Gloria Villagrán R.</h1>
+                <h3 class="tagline">FrontEnd Developer</h3>
+            </div>
+            <div id="contacto" class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa-solid fa-envelope"></i><a
+                            href="mailto: yourname@email.com">glo.villagran@gmail.com</a></li>
+                    <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a
+                            href="https://www.linkedin.com/in/glovillagran/" target="_blank">Linkedin</a></li>
+                    <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/GloVillagran"
+                            target="_blank">github.com/GloVillagran</a></li>
+                    <li class="location"><i class="fa-solid fa-location-dot"></i>Santiago, Chile</li>
+                </ul>
+            </div>
+            <div class="education-container container-block">
+                <h2 id="educacion" class="container-block-title">Educación</h2>
+                <div class="item">
+                    <h4 class="degree">Fullstack JavaScript</h4>
+                    <h5 class="meta">Desafio Latam</h5>
+                    <div class="time">ago 2023 - actualidad</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">Desarrollo Web</h4>
+                    <h5 class="meta">Laboratoria</h5>
+                    <div class="time">ene 2023 - julio 2023</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">Kinesiología</h4>
+                    <h5 class="meta">Universidad Finis Terrae</h5>
+                    <div class="time">2005 - 2010</div>
+                </div>
+            </div>
 
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Idiomas</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>English <span class="lang-desc">(Basic)</span></li>
+                    <li>Spanish <span class="lang-desc">(Professional)</span></li>
+                </ul>
+            </div>
 
-    <main class="container">
-        <header class="información">
-            <img src="assets/img/fotoPerfil.jpeg" alt="Foto perfil">
-            <h1>Gloria Villagrán Rojas</h1>
-            <h2>FrontEnd Developer</h2>
-            <p>FrontEnd Developer, con experiencia en Desarrollo Web, mediante el aprendizaje por proyectos e
-                incorporación
-                de
-                las metologias ágiles. Experiencia enfocada en código de calidad, patrones de diseño y buenas prácticas.
-                Con
-                manejo en JavaScript, HTML y CSS.Me caracterizo por ser una persona perseverante, tener iniciativa,
-                pensamiento
-                critico y buen trabajo en equipo. Estoy en busca de nuevos retos y oportunidades de crecimiento.</p>
-        </header>
-        <section id="contacto" class="contacto">
-            <h3>Contacto</h3>
-            <p>
-                <i class="fa-solid fa-envelope"></i>
-                glo.villagran@gmail.com
-            </p>
-            <p>
-                <i class="fa-brands fa-linkedin"></i>
-                <a href="https://www.linkedin.com/in/glovillagran/" target="_blank">Gloria Villagrán</a>
-            </p>
-            <p>
-                <i class="fa-brands fa-github"></i>
-                <a href="https://github.com/GloVillagran" target="_blank">GloVillagran</a>
-            </p>
-            <p>
-                <i class="fa-solid fa-location-dot"></i>
-                Santiago, Chile
-            </p>
-            <p>
-                <i class="fa-solid fa-globe"></i>
-                Ingles básico
-            </p>
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Intereses</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Leer</li>
+                    <li>Viajar</li>
+                    <li>Trekking</li>
+                </ul>
+            </div>
 
-        </section>
-        <section id="skills">
-            <h3>Skills Tech</h3>
-            <ul>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>NodeJs</li>
-                <li>React</li>
-                <li>Jest</li>
-                <li>Axios</li>
-                <li>Firebase</li>
-                <li>GitHub</li>
-            </ul>
-            <h3>Softs Skills</h3>
-            <ul>
-                <li>Iniciativa</li>
-                <li>Trabajo en Equipo</li>
-                <li>Capacidad de adaptación</li>
-                <li>Pensamiento Crítico</li>
-            </ul>
-        </section>
-        <section id="educacion" class="educacion">
-            <h3>Educación</h3>
-            <ul>
-                <li>Fullstack JavaScript Desafio Latam</li>
-                <li>Desarrollo Web, Laboratoria</li>
-                <li>Kinesiología, Universidad Finis Terrae</li>
-            </ul>
-        </section>
-        <section id="proyectos">
-            <h3>Proyectos</h3>
-            <p class="proyectos">Desafio Latam</p>
-            <p>Bootcamp intensivo mediante clases teoricas y practicas</p>
-            <ol>
-                <li>
-                    <a href="https://github.com/GloVillagran/fdsw-github" target="_blank">Portafolio</a>
-                    <p>Desarrolle un CV a partir de una plantilla encontrada en un repositorio en GitHub, donde se nos
-                        pidio realizar fork y modificarlo para lograr el objetivo.</p>
-                </li>
-                <li>
-                    <a href="https://github.com/GloVillagran/Cuppon_Cuarto_Desafio" target="_blank">Cuppon</a>
-                    <p>Construi una página web para vender productos tanto una versión para escritorio, para tablet y
+        </div>
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>Acerca de mi
+                </h2>
+                <div class="summary">
+                    <p>FrontEnd Developer, con experiencia en Desarrollo Web, mediante el aprendizaje por proyectos e
+                        incorporación
+                        de
+                        las metologias ágiles. Experiencia enfocada en código de calidad, patrones de diseño y buenas
+                        prácticas.
+                        Con
+                        manejo en JavaScript, HTML y CSS.Me caracterizo por ser una persona perseverante, tener
+                        iniciativa,
+                        pensamiento
+                        critico y buen trabajo en equipo. Estoy en busca de nuevos retos y oportunidades de crecimiento.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section experiences-section">
+                <h2 id="experiencia" class="section-title"><span class="icon-holder"><i
+                            class="fa-solid fa-briefcase"></i></span>Experiencia</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Matriceria de Hipotecas</h3>
+                            <div class="time">2019 - 2023</div>
+                        </div>
+                        <div class="company">Conservador de Bienes Raices</div>
+                    </div>
+                    <div class="details">
+                        <p>Me desempeñe en Matriceria de Hipotecas, donde debía revisar escrituras e ingresar
+                            información para
+                            inscripciones</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Kinesiología Respiratoria UCI pediatrica </h3>
+                            <div class="time">2013 - 2018</div>
+                        </div>
+                        <div class="company">Clinica Red Salud Santiago</div>
+                    </div>
+                    <div class="details">
+                        <p>Fui parte del área intensiva pediatríca, donde aporte en conjunto con el resto del equipo de
+                            salud en
+                            la
+                            recuperación de pacientes pediátricos. Realice capacitaciones y ayudantías a estudiantes de
+                            Kinesiólgía,
+                            y
+                            logramos desempeñarnos en áreas de salud donde la kinesiología aun no se integraba.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section projects-section">
+                <h2 id="proyectos" class="section-title"><span class="icon-holder"><i class="fa-solid fa-archive"></i></span>Proyectos
+                </h2>
+                <div class="intro">
+                    <p>Desafio Latam</p>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/GloVillagran/fdsw-github"
+                            target="_blank">Portafolio</a></span> - <span class="project-tagline">Desarrolle un CV a
+                        partir de una plantilla encontrada en un repositorio en GitHub, donde se
+                        nos
+                        pidio realizar fork y modificarlo para lograr el objetivo. </span>
+
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/GloVillagran/Cuppon_Cuarto_Desafio"
+                            target="_blank">Cuppon</a></span> - <span class="project-tagline">Construi una página web
+                        para vender productos tanto una versión para escritorio, para tablet
+                        y
                         para teléfonos
-                        móviles. Utilice Bootstrap para el desarrollo</p>
-                </li>
-                <li>
-                    <a href="https://github.com/GloVillagran/Iguana_Tercer_Desafio" target="_blank">Iguana</a>
-                    <p>Se me solicito construir un landing page a partir de una maqueta, con CSS utilizando flex</p>
-                </li>
-                <li>
-                    <a href="https://github.com/GloVillagran/cv2_PrimerDesafio" target="_blank">CV</a>
-                    <p>Desarrolle mi Curriculum Vitae mediante HTML y CSS, y portafolio con Boostrap.</p>
-                </li>
-            </ol>
+                        móviles. Utilice Bootstrap para el desarrollo</span>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/GloVillagran/Iguana_Tercer_Desafio"
+                            target="_blank">Iguana</a></span> - <span class="project-tagline">Se me solicito construir
+                        un landing page a partir de una maqueta, con CSS utilizando flex</span>
+                </div>
 
-            <p class="proyectos">Laboratoria</p>
-            <p>Bootcamp intensivo que simula un ambiente laboral real, mediante el aprendizaje por proyectos e
-                incorporación
-                de
-                las metologías ágiles para el desarrollo de dichos proyectos.</p>
-            <ol>
-                <li>
-                    <a href="https://github.com/GloVillagran/DEV004-burger-queen-api-client" target="_blank">Burger
-                        Queen
-                        Api
-                        Client</a>
-                    <p>Realice un sistema para empleados del restaurante, a través del cual puedan tomar pedidos usando
+                <div class="intro">
+                    <p>Laboratoria</p>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/GloVillagran/DEV004-burger-queen-api-client"
+                            target="_blank">Burger Queen</a></span> - <span class="project-tagline">Realice un sistema
+                        para empleados del restaurante, a través del cual puedan tomar pedidos
+                        usando
                         una
-                        tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente. Implemente la
+                        tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente. Implemente
+                        la
                         plataforma
-                        con el framework de React haciendo uso de peticiones http a la api.</p>
-                </li>
-                <li>
-                    <a href="https://github.com/GloVillagran/DEV004-md-links" target="_blank">MD Links</a>
-                    <p>Cree una herramienta de linea de comando y una librería, donde utilice Node.js, que permite
+                        con el framework de React haciendo uso de peticiones http a la api.</span>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/GloVillagran/DEV004-md-links"
+                            target="_blank">MD Links</a></span> -
+                    <span class="project-tagline">Cree una herramienta de linea de comando y una librería, donde utilice
+                        Node.js, que permite
                         extraer
                         los
                         links de un archivo tipo Markdown(md), e identifica cuales están funcionando y cuales están
-                        rotos.
-                    </p>
-                </li>
-                <li>
-                    <a href="https://github.com/GloVillagran/DEV004-social-network" target="_blank">Social Network</a>
-                    <p>Red Social para amantes del café. Fui parte del desarrollo de una interfaz que permite al usuario
+                        rotos. </span>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/GloVillagran/DEV004-social-network"
+                            target="_blank">Social Network</a></span> -
+                    <span class="project-tagline">Red Social para amantes del café. Fui parte del desarrollo de una
+                        interfaz que permite al
+                        usuario
                         crear
                         una cuenta de acceso y la posibilidad de autentificación con Google. Además el usuario podrá
                         crear,
-                        editar y borrar post, comentar y dar likes/dislikes a otros post.</p>
-                </li>
-                <li>
-                    <a href="https://github.com/GloVillagran/DEV004-data-lovers" target="_blank">Data Lovers</a>
-                    <p>Página Web para seguidores de Pokemon GO. Contribuí en el desarrollo de una interfaz mediante el
-                        manejo
-                        de datos. Donde el usuario podrá interactuar filtrando por tipo, ordenando alfabéticamente y
-                        buscando
-                        por su nombre.</p>
-                </li>
-            </ol>
-        </section>
-        <section id="experiencia" class="experiencia">
-            <h3>Experiencia Laboral</h3>
-            <b>Conservador de Bienes Raices</b>
-            <p>Me desempeñe en Matriceria de Hipotecas, donde debía revisar escrituras e ingresar información para
-                inscripciones
-                de hipotecas.</p>
-            <b>Kinesiología Respiratoria UCI pediatrica, Clinica Red Salud Santiago</b>
-            <p>Fui parte del área intensiva pediatríca, donde aporte en conjunto con el resto del equipo de salud en la
-                recuperación de pacientes pediátricos. Realice capacitaciones y ayudantías a estudiantes de Kinesiólgía,
-                y
-                logramos desempeñarnos en áreas de salud donde la kinesiología aun no se integraba.</p>
-        </section>
-    </main>
-    <footer>
-        <p class="footer">&copy; 2023 Gloria Villagran. Todos los derechos reservados.</p>
+                        editar y borrar post, comentar y dar likes/dislikes a otros post. </span>
+                </div>
+
+            </section>
+
+            <section class="skills-section section">
+                <h2 id="skills" class="section-title"><span class="icon-holder"><i class="fa-solid fa-rocket"></i></span>Skills Tech
+                </h2>
+                <div class="skillset">
+                    <div class="item">
+                        <h3 class="level-title">Javascript</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%"
+                                aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">React &amp; Angular</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">GitHub;</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Bootstrap</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">NodeJs &amp Jest;</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Firebase</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+            <small class="footer">&copy; 2023 Gloria Villagran. Todos los derechos reservados.</small>
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
