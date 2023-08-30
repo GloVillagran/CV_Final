@@ -1,6 +1,5 @@
 # CV_Final
-
-prueba final que incluye CV y portafolio. Se utilizo Html, CSS y Bootstrap
+CV y portafolio. Se utilizo Html, CSS, JS y Bootstrap.
 
 Portafolio Gloria Villagrán: https://glovillagran.github.io/CV_Final/
 
